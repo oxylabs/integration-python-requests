@@ -69,7 +69,7 @@ proxies = {
 }
 ```
 
-Here, you can use country-specific entries. For example, if you enter gb-pr.oxylabs.io instead of PROXY_ADDRESS and 20000 instead of PORT, you’ll acquire a United Kingdom exit node. Please refer to our documentation for a complete list of country-specific entry nodes and sticky session details.
+Here, you can use country-specific entries. For example, if you enter gb-pr.oxylabs.io instead of PROXY_ADDRESS and 20000 instead of PORT, you’ll acquire a United Kingdom exit node. Please refer to our [documentation](https://developers.oxylabs.io/proxies/residential-proxies/location-settings/country-specific-entry-nodes) for a complete list of country-specific entry nodes and sticky session details.
 
 ### Datacenter Proxies
 
