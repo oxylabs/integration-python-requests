@@ -73,15 +73,15 @@ proxies = {
 
 Here, you can use country-specific entries. For example, if you enter gb-pr.oxylabs.io instead of PROXY_ADDRESS and 20000 instead of PORT, you’ll acquire a United Kingdom exit node. Please refer to our [documentation](https://developers.oxylabs.io/proxies/residential-proxies/location-settings/country-specific-entry-nodes) for a complete list of country-specific entry nodes and sticky session details.
 
-### Datacenter Proxies
+### Dedicated and Self-Service Datacenter Proxies
 
 If you've purchased a dedicated proxy through our sales team, you’ll have to choose an IP address from the acquired list. You can refer to our [documentation](https://developers.oxylabs.io/proxies/dedicated-datacenter-proxies/enterprise/proxy-lists) for more details. 
 
 If you used the self-service dashboard instead, the port number corresponds with the sequential number of the IP address from the obtained list – more details are available in our [documentation](https://developers.oxylabs.io/proxies/dedicated-datacenter-proxies/self-service/proxy-list).
 
-### Shared Datacenter Proxies
+### Datacenter Proxies
 
-You can also use country-specific entries with Shared Datacenter Proxies. For instance, if you enter `dc.fr-pr.oxylabs.io` in place of **PROXY_ADDRESS** and `42000` instead of **PORT**, you’ll have a French exit node. Please refer to our [documentation](https://developers.oxylabs.io/proxies/shared-datacenter-proxies/select-country) for the entire list of country-specific entries.
+You can also use country-specific entries with Datacenter Proxies. For instance, for example, if you want to rotate France proxy pool only, use rotating port 8000 together with a parameter country-FR in your username: you’ll have a French exit node. Please refer to our [documentation](https://developers.oxylabs.io/products/proxies/datacenter-proxies/select-country) for the entire list of country-specific entries.
 
 **Step 3:** The last step is to send an HTTP request using a method of your `choice—get()`, `post(), or `put()` —and pass the `proxies` dictionary along the target URL.
 
