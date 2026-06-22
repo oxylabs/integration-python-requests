@@ -71,7 +71,7 @@ proxies = {
 }
 ```
 
-Here, you can use country-specific entries. For example, if you enter gb-pr.oxylabs.io instead of PROXY_ADDRESS and 20000 instead of PORT, you’ll acquire a United Kingdom exit node. Please refer to our [documentation](https://developers.oxylabs.io/proxies/residential-proxies/location-settings/country-specific-entry-nodes) for a complete list of country-specific entry nodes and sticky session details.
+Here, you can use country-specific entries. For example, if you enter gb-pr.oxylabs.io instead of PROXY_ADDRESS and 20000 instead of PORT, you’ll acquire a United Kingdom exit node. Please refer to our [documentation](https://developers.oxylabs.io/products/proxies/residential-proxies/location-settings/select-country#country-specific-entry-nodes) for a complete list of country-specific entry nodes and sticky session details.
 
 ### Dedicated and Self-Service Datacenter Proxies
 
@@ -162,7 +162,7 @@ Unlike Residential and Shared Datacenter Proxies,  Dedicated Datacenter Proxies 
 
 This straightforward process involves creating a list of proxy endpoints and randomly selecting one before every new HTTP request. 
 
-Assuming you have a [proxy list](https://developers.oxylabs.io/proxies/dedicated-datacenter-proxies/proxy-lists), you can use the following code to rotate the proxies from the given proxy list:
+Assuming you have a [proxy list](https://developers.oxylabs.io/products/proxies/dedicated-datacenter-proxies/self-service/proxy-list), you can use the following code to rotate the proxies from the given proxy list:
 
 ```
 import requests
